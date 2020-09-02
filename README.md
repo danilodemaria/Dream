@@ -18,7 +18,7 @@
 * Editar ou excluir um imóvel (com restrição de reservas)
 * Gerenciar propriedade com valores e disponibilidade para cada data
 * Alteração de disponibilidade em massa (valores únicos ou relativos ao período) da propriedade  
-* Relatórios individuais de cada propriedade ou geral do estabelecimento cadastrado
+* Relatórios individuais de cada propriedade ou geral do estabelecimento cadastrado (com suporte a exportação de arquivo com xls ou PDF)
 * Painel administrativo com os principais recursos e boa usabilidade para o usuário adminitrador
 * Integração de login de cliente através de contas como Google e Facebook (ou cadastro de conta local na plataforma)
 * Sistema de notificação completo por email e Whatsapp (cliente e administrador)
