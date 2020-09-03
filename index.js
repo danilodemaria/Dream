@@ -3,7 +3,6 @@ const http = require('http');
 const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
-const server = http.createServer(app);
 const port = process.env.PORT | 3000;
 
 app.listen(port, () => {
