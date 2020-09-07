@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize');
+const moment = require('moment');
 
 class Property extends Sequelize.Model {
   static init(sequelize) {
@@ -8,6 +9,9 @@ class Property extends Sequelize.Model {
           type: Sequelize.INTEGER,
           autoIncrement: true,
           primaryKey: true,
+        },
+        id_client: {
+          type: Sequelize.INTEGER,
         },
         id_type: {
           type: Sequelize.INTEGER,
@@ -21,7 +25,7 @@ class Property extends Sequelize.Model {
         bed_number: {
           type: Sequelize.INTEGER,
         },
-        suite: {
+        suite_number: {
           type: Sequelize.INTEGER,
         },
         bathrooms: {

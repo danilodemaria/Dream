@@ -9,6 +9,18 @@ class Client extends Sequelize.Model {
           autoIncrement: true,
           primaryKey: true,
         },
+        name: {
+          type: Sequelize.STRING,
+        },
+        last_name: {
+          type: Sequelize.STRING,
+        },
+        email: {
+          type: Sequelize.STRING,
+        },
+        password: {
+          type: Sequelize.STRING,
+        },
         active: {
           type: Sequelize.BOOLEAN,
           defaultValue: true,
